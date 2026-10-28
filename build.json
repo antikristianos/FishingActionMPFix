@@ -1,0 +1,199 @@
+{
+  "JavaRelease": 17,
+  "JarName": "FishingActionMPFix.jar",
+  "AdditionalClasspath": [],
+  "Entries": [
+    {
+      "Path": "antikristianos/fishingactionmpfix/ConnectionScopedActionSelector$Accessor.class",
+      "Size": 611,
+      "Sha256": "4B6EBE29DA14DE4B3075037FE48665C66CD66D4CAF325059E4914FDB06C979A7"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/ConnectionScopedActionSelector.class",
+      "Size": 1817,
+      "Sha256": "62538F5662CB259AED154DE6BDA913333E5D87E5A3E5B8D86E9DFE9914CCE7C5"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority$Access.class",
+      "Size": 2944,
+      "Sha256": "4E670712BF52A4190FFE08F4487C4D5A09559B11D269E3358E6E61835192CC4A"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority$Anchor.class",
+      "Size": 1583,
+      "Sha256": "D7D40B67B3C6B689839B1CE8FA8CB5B084A776F1AF78F4FE93D0C0AD35474BF8"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority$ClientSnapshot.class",
+      "Size": 1746,
+      "Sha256": "2C088301E885D00840C198525F183C0C5C21E923B918CC702D9A8BD46EC49D33"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority$ConnectionState.class",
+      "Size": 1341,
+      "Sha256": "F1A43A6850E283AC7FE145C6CC5C7818E465DA26C69B7269B50DE317E7B5EC2F"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority$Delta.class",
+      "Size": 2047,
+      "Sha256": "58E62E91380009FA19095FCA4CD42A672CE0BA954C7B8E414B33401D4D3B2CDC"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingBubbleAuthority.class",
+      "Size": 15172,
+      "Sha256": "66A7809253380B24573737473A952F4244E280698048AE4305B430304964D7F8"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingStateSync$Access.class",
+      "Size": 2906,
+      "Sha256": "836E9ED0CD592CDEEBD750A30DB3778BAE81D615E0EBE56F6AC70BA42407AF3A"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingStateSync$FishPointPredicate.class",
+      "Size": 464,
+      "Sha256": "B34ADF5872CE7DE4016CDB0BEBB5B0A514FCE39AEB1D21C1D2A12D9D59BA885C"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingStateSync$FishingZonePacket.class",
+      "Size": 2167,
+      "Sha256": "A1E19AE5CE24D426E18C3978BB6D7B3E2E558A45A7F22DAFC7569FA4CA73FA5C"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingStateSync$PacketAccess.class",
+      "Size": 2413,
+      "Sha256": "120AD4DF646D7EC4E4ECA5A6CB8FD25D912EF0B5D27DECBEF37FF8AD6365911B"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FishingStateSync.class",
+      "Size": 12583,
+      "Sha256": "F9CEB686F6E26E0AE68ABCBCF22B36216B906F55833CFDE33907389561DD3D51"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/FixLog.class",
+      "Size": 5844,
+      "Sha256": "A416950FEDB258C641EF1DD531B39A2972860F9465CA8E7BBC98026BFEC8438E"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PacketConnectionContext$Frame.class",
+      "Size": 1900,
+      "Sha256": "F50BEEA9A2197DCBF1FF4D73AA5B33A169F4DCE4C8CC6A781788EED6224FDE6A"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PacketConnectionContext$Kind.class",
+      "Size": 1339,
+      "Sha256": "E46263A0882DB750F33C39C78377200E5C2246293EDC6DD7F8FAAF43BB2F04EF"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PacketConnectionContext.class",
+      "Size": 1889,
+      "Sha256": "110A633BB6CB17165A9F8A9F9E84E8DCF5D7A87BEE7C5AB66E13728F92018DD3"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchActionManagerCreateNetTimedAction.class",
+      "Size": 1151,
+      "Sha256": "26178B684589682038D8F8D1236DF10171D480952E6245FFFBB428E223059BE2"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchActionManagerStopPlayerActions.class",
+      "Size": 1307,
+      "Sha256": "E2593905B341FCF8A31A67F6E2368CC0E698095C6F5BAD3A5D9D48F90388A6BF"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerAddChum.class",
+      "Size": 1028,
+      "Sha256": "C845BB4B915774BFD0598FECAF522F149091220F131E48A5655FB5AC6851D1CE"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerAddSoundNoise.class",
+      "Size": 1415,
+      "Sha256": "32C6FC3F8557E292DDB4B6CFB76C9B9FE4D0006CEF4E694C98CF5BBC905D0BF4"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerCatchFish.class",
+      "Size": 1019,
+      "Sha256": "3CFD697265FB0023FCC4E75A9F8DD2EBE068ED0F4D4D599D319795C2676CE705"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerGenerateSplashInRadius.class",
+      "Size": 1069,
+      "Sha256": "8699B9040415C56E2511B60BA4451E80B51D241253F26A2AB7199E92E5644A81"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerGenerateSplashes.class",
+      "Size": 1101,
+      "Sha256": "F334387ECA666A6B9EB460DA1D9AAD3E6C537967D1AFA6694775C3F8636036C7"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerReceiveFishingData.class",
+      "Size": 1080,
+      "Sha256": "9629E72E874B80FBDB6B869498C08532BB3C4ACC90638DAB832675F3CBE45620"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerUpdate.class",
+      "Size": 1171,
+      "Sha256": "FCF76307C06904F225C65F85D6D27E57069C627B1347441B9BCAC6D540950D2C"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerUpdateSeed.class",
+      "Size": 826,
+      "Sha256": "11E10058DC28D1D2C5D1D444631DBC71EBACBEC3B2B264CBD8A863D0C0BC906D"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerVisibleFishCount.class",
+      "Size": 1204,
+      "Sha256": "CD25DA91B9E743D207D7DE4D026F90B6D9707D5D3A3178132DA8EE6C5E9295CD"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerVisibleFishPoint.class",
+      "Size": 1284,
+      "Sha256": "519ABEE78FDF18DE48EC62D5BDAE4139B23EEB201274E4949A38FD63DDF3F067"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchGameServerReceiveFishingDataRequest.class",
+      "Size": 1066,
+      "Sha256": "CD8192CD2DEBFC2204D5FC8484CED17EC764EEA617A1DDCCE15DEC0614BA7F52"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchNetTimedActionPacketProcessServer.class",
+      "Size": 1610,
+      "Sha256": "C92E2F52559D4252E83B6D3DC96B8325084EE56C3F0B6E83AEC6F29088C11A76"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/PatchRegisterZonePacketProcessClient.class",
+      "Size": 1186,
+      "Sha256": "16DC4DAF4244DBE3773025C95AFB96F9E36BB0BFD40350240F2C829363BE76E5"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/TimedActionFishingContext.class",
+      "Size": 1154,
+      "Sha256": "2DE02310B281EE77D6989CA498AC93A2F34165CCC4B205B87B7235B21B7DB24B"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess$Access.class",
+      "Size": 4180,
+      "Sha256": "F3115F8650D7053E6C66FDEC4A7C0DBA666B514A629DEA5C8B4B54C31DD8D962"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess$PlayerResolution.class",
+      "Size": 1795,
+      "Sha256": "9D064946A05A692F945D6BE03176A27377299F65EC0053A92C71CF63E38B86EF"
+    },
+    {
+      "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess.class",
+      "Size": 6024,
+      "Sha256": "29B1636EE6FC4FE21C7506DE84C2CE3F5728412FA31A55F19F5289D693F59530"
+    }
+  ],
+  "Dependencies": [
+    {
+      "Path": "projectzomboid.jar",
+      "Size": 66254409,
+      "Sha256": "90C54B84EBC160AE053CBEFE30C7713826CA4FDB4934FDE53C9EBDE0FF9892F3"
+    },
+    {
+      "Path": "ZombieBuddy.jar",
+      "Size": 12491692,
+      "Sha256": "79120880FDA051718082BD9BF0C2C2B639450AE73641FDB4631750221A57B208"
+    }
+  ]
+}

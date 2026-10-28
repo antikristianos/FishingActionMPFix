@@ -1,0 +1,13 @@
+name=[B42] MP Vanilla Fishing Complete Fix (WIP)
+id=FishingActionMPFix_WIP
+author=Antikristianos
+description=Complete Build 42.21 multiplayer repair for fishing-action ownership, continued fishing during inventory actions, server-authoritative fish bubbles and zones including noise and chum, fishing-line consumption and snapped-rod state, backpack bait transfers, and Fishing Panel persistence. Includes fishing minigame scaling for screen heights of 1440 pixels and above.
+icon=../common/icon.png
+require=\ZombieBuddy
+javaJarFile=media/java/FishingActionMPFix.jar
+javaPkgName=antikristianos.fishingactionmpfix
+ZBVersionMin=2.3.2
+modversion=1.2.1
+versionMin=42.22.0
+category=Multiplayer
+incompatible=FishingActionMPFix
