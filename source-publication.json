@@ -3,16 +3,16 @@
   "Project": "FishingActionMPFix",
   "Repository": "antikristianos/FishingActionMPFix",
   "Branch": "main",
-  "Tag": "v1.2",
-  "ModVersion": "1.2",
+  "Tag": "v1.3",
+  "ModVersion": "1.3",
   "CollectionVersion": null,
   "WorkshopId": 3776009088,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3776009088",
-  "UploadManifestSha256": "447E0859FFF30A7ABDC6B42CCAFC0C438B0953780BF3276E0B4118CE93B085EC",
+  "UploadManifestSha256": "59E6DDD32C0D5A7C046E3E9A09F79D84F772EFBEF17EBD3421177BB6EEBB9D02",
   "Artifact": {
-    "Path": "mods/FishingActionMPFix/42.21/media/java/FishingActionMPFix.jar",
-    "Size": 50770,
-    "Sha256": "A0DACA2C8999B45B38D75ED45EE2DE14A0C8F7B131F3F50805EAC114DC9F3B2F"
+    "Path": "mods/FishingActionMPFix/42.22/media/java/FishingActionMPFix.jar",
+    "Size": 50783,
+    "Sha256": "EEEC16455EC3DC73594118F9B1342322FC084C6CDDA3D9BDE9570CF3EA4E4F67"
   },
   "Sources": [
     {
@@ -23,17 +23,17 @@
     {
       "Path": "MANIFEST.MF",
       "Size": 156,
-      "Sha256": "B313156B2B8761C332D36459FE5CD5728C0D4B923EB56D3234164100A164B023"
+      "Sha256": "C86383719D5F2E86AE7133A6B07C72F3CC00F3B5D6A7A5295754EA3165E97CAD"
     },
     {
       "Path": "README.md",
       "Size": 1451,
-      "Sha256": "A04AB7CA3D65AC45575AE7280EA358D6D699F842BC3EAF13B4D3CFFB7741BDF1"
+      "Sha256": "C8B0660161D3CB7EBE9E24E4076CC998F2756DE257792A9A69444D2146562F45"
     },
     {
       "Path": "build.json",
       "Size": 8026,
-      "Sha256": "2CC8618D0B610DCD56FB610C992042A56BF04A7620778FA3CA4C068B31EA74BC"
+      "Sha256": "B5BEDAEF69B7A3ABBEEBFCD8D75E5FA4D64A41C5A14F3FCF79CD67B91D5DD438"
     },
     {
       "Path": "build.ps1",
@@ -41,54 +41,54 @@
       "Sha256": "8389B7B0B5515387FA5D9B3989FED7C8629DA7762817C03AD266B69DE5B2B0FD"
     },
     {
-      "Path": "runtime/42.21/media/lua/client/FishingActionMPFix/FishingBubbleAuthority.lua",
+      "Path": "runtime/42.22/media/lua/client/FishingActionMPFix/FishingBubbleAuthority.lua",
       "Size": 2495,
       "Sha256": "9221E8992190F7F4310DF2FFBF0E4CDB9FAAA05A79DB30AA2F68219F857E92BF"
     },
     {
-      "Path": "runtime/42.21/media/lua/client/FishingActionMPFix/FishingLureQueueFix.lua",
+      "Path": "runtime/42.22/media/lua/client/FishingActionMPFix/FishingLureQueueFix.lua",
       "Size": 676,
       "Sha256": "DC2E828BCF939463BE9D3EB45127CB10F3D64219B2C87014CA0B9013090314A6"
     },
     {
-      "Path": "runtime/42.21/media/lua/client/FishingActionMPFix/FishingMinigameScale.lua",
+      "Path": "runtime/42.22/media/lua/client/FishingActionMPFix/FishingMinigameScale.lua",
       "Size": 3262,
       "Sha256": "3164279C97FC52F207585E4DFB7A32970548BFE89F0A00C0A3D72DE631CF48DA"
     },
     {
-      "Path": "runtime/42.21/media/lua/client/FishingActionMPFix/FishingPanelFix.lua",
+      "Path": "runtime/42.22/media/lua/client/FishingActionMPFix/FishingPanelFix.lua",
       "Size": 3083,
       "Sha256": "D03D1C3D8F10B0811AC4CCE1C02DE552BE75E979C42E40C298F9900E8642EF34"
     },
     {
-      "Path": "runtime/42.21/media/lua/server/FishingActionMPFix/FishingBubbleAuthorityServer.lua",
+      "Path": "runtime/42.22/media/lua/server/FishingActionMPFix/FishingBubbleAuthorityServer.lua",
       "Size": 744,
       "Sha256": "1E8EED112CA9EC8DA6482FA3381179B8301549CADA58B2A4DEDDED6D275DE28B"
     },
     {
-      "Path": "runtime/42.21/media/lua/server/FishingActionMPFix/FishingRodBreakServerFix.lua",
+      "Path": "runtime/42.22/media/lua/server/FishingActionMPFix/FishingRodBreakServerFix.lua",
       "Size": 3078,
       "Sha256": "7B0D3705EA03E635FD4E4FA04B06CCFAE9098D19B5F165767DA9D72B6DB6BC6A"
     },
     {
-      "Path": "runtime/42.21/media/lua/shared/FishingActionMPFix/FishingLineConsumptionFix.lua",
+      "Path": "runtime/42.22/media/lua/shared/FishingActionMPFix/FishingLineConsumptionFix.lua",
       "Size": 1434,
       "Sha256": "78033DC5EBD04C28AF61A8DE44BCB15B46F1C77329F78C678583866643A670C6"
     },
     {
-      "Path": "runtime/42.21/media/lua/shared/FishingActionMPFix/FishingPanelPersistence.lua",
+      "Path": "runtime/42.22/media/lua/shared/FishingActionMPFix/FishingPanelPersistence.lua",
       "Size": 2773,
       "Sha256": "6E2DD71CB89432AF7C37E03FCEE607C50D15221A16A75DE02C5031EAADF982E8"
     },
     {
-      "Path": "runtime/42.21/media/lua/shared/FishingActionMPFix/FishingRodBreakFix.lua",
+      "Path": "runtime/42.22/media/lua/shared/FishingActionMPFix/FishingRodBreakFix.lua",
       "Size": 1890,
       "Sha256": "CF7E7D05FA406DAE3E73901DE991BF700A5ECCD2D03A7286DDAE10113361F575"
     },
     {
-      "Path": "runtime/42.21/mod.info",
+      "Path": "runtime/42.22/mod.info",
       "Size": 741,
-      "Sha256": "1AA498AC757C24FA97E0248FB87CA4736AC9B24B0A08DE4E9A40593D614E2FDF"
+      "Sha256": "E7113919DBFD915952EC8BA689843F90B74D2E2FA2B951A4ADD16170DF9F1747"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/ConnectionScopedActionSelector.java",
@@ -117,23 +117,23 @@
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchActionManagerCreateNetTimedAction.java",
-      "Size": 725,
-      "Sha256": "AE0134092336F183C1E973CB8F2B9D0BAFC4E3B70286ED01189116B47BE41D7C"
+      "Size": 729,
+      "Sha256": "4CB3B3A2CF2AAD01578D13050E8796CEEE5591D6CCB52DA4B6CB03F6057AE6B8"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchActionManagerStopPlayerActions.java",
-      "Size": 687,
-      "Sha256": "FA9EA49397F4E12FD24FE537567B70F4A787FD530CDC02211AF0FD4B76A97FEF"
+      "Size": 675,
+      "Sha256": "5166850846D5D496E6179E254E93B0A1F4E5F553BC1512F81E3F1DC7CFD9069F"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchFishSchoolManagerAddChum.java",
-      "Size": 586,
-      "Sha256": "CD39706D93DDFAD4B6404E5F708BF916DDA9DF90DBD26274B8B6E964F13BB562"
+      "Size": 589,
+      "Sha256": "D51195C6E41C4A27C03727A91E70C71F04AA2A4021833969ED7E1935D23B5E3F"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchFishSchoolManagerAddSoundNoise.java",
-      "Size": 896,
-      "Sha256": "05DC4866A7BC6D3EFF5ECD28205E42402FBDE7EE688058BC26591A987D305B4A"
+      "Size": 900,
+      "Sha256": "5F8B1B9B8899C36D1C058B6BDA49DAA5055DAA3F5D4A401CAC895C9313AF148A"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchFishSchoolManagerCatchFish.java",
@@ -152,8 +152,8 @@
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchFishSchoolManagerReceiveFishingData.java",
-      "Size": 599,
-      "Sha256": "2220B59765774A7C67E2B21AE8F33C9A69CCC2F6DB669B92C2E8770F4AAD3E57"
+      "Size": 600,
+      "Sha256": "2E7D5349E68ED28E0170244E758A9393CE74DAD1CEB28E2D8FDF9BD63A9B1C4F"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchFishSchoolManagerUpdate.java",
@@ -182,13 +182,13 @@
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchNetTimedActionPacketProcessServer.java",
-      "Size": 922,
-      "Sha256": "D49A15CC3C86A82AC331423E0C10423728AE23833593CFD86CDE055D23227453"
+      "Size": 927,
+      "Sha256": "A43DC31A0768397B433C834609B63AA7834FC4F608E703178279DBD758ACB084"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/PatchRegisterZonePacketProcessClient.java",
-      "Size": 645,
-      "Sha256": "AEC526EA59339BED6E88EBCCC841843819A4851861FB3DB5B1972A6EB217EDA1"
+      "Size": 648,
+      "Sha256": "C84CE981732F55A4C26606E7D9FF2F12256D9A23B43FD355AE3E1E23517AE38E"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/TimedActionFishingContext.java",
@@ -197,8 +197,8 @@
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/VanillaActionAccess.java",
-      "Size": 12612,
-      "Sha256": "73241559149F5C685529D739C1343D853E2DEDD38F0F131C0E668DDAB08E3FAB"
+      "Size": 12667,
+      "Sha256": "F4BF618983FBE3CD51AE00E8F3C44971A6825E39C3C48CA94204E48BC6C91F23"
     }
   ]
 }

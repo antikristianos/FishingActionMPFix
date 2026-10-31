@@ -95,8 +95,8 @@
     },
     {
       "Path": "antikristianos/fishingactionmpfix/PatchActionManagerStopPlayerActions.class",
-      "Size": 1333,
-      "Sha256": "53B792FABBA193C00FA337940224DA92FC45684B9ADA805D198F2C2370EFE732"
+      "Size": 1307,
+      "Sha256": "E2593905B341FCF8A31A67F6E2368CC0E698095C6F5BAD3A5D9D48F90388A6BF"
     },
     {
       "Path": "antikristianos/fishingactionmpfix/PatchFishSchoolManagerAddChum.class",
@@ -170,8 +170,8 @@
     },
     {
       "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess$Access.class",
-      "Size": 4164,
-      "Sha256": "E5D17A6C3C5914DC71759E0FE7B5430F36080B0FD3992173F9336EAB0BFC178E"
+      "Size": 4180,
+      "Sha256": "F3115F8650D7053E6C66FDEC4A7C0DBA666B514A629DEA5C8B4B54C31DD8D962"
     },
     {
       "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess$PlayerResolution.class",
@@ -180,8 +180,8 @@
     },
     {
       "Path": "antikristianos/fishingactionmpfix/VanillaActionAccess.class",
-      "Size": 5940,
-      "Sha256": "00B487D496F6204E77F0F9B452E4C51C9C07581C2D723E388551FEFAF35E2EB2"
+      "Size": 6024,
+      "Sha256": "29B1636EE6FC4FE21C7506DE84C2CE3F5728412FA31A55F19F5289D693F59530"
     }
   ],
   "Dependencies": [
@@ -192,8 +192,8 @@
     },
     {
       "Path": "ZombieBuddy.jar",
-      "Size": 12491692,
-      "Sha256": "79120880FDA051718082BD9BF0C2C2B639450AE73641FDB4631750221A57B208"
+      "Size": 12491689,
+      "Sha256": "F2490E1B72F12CFAE7EB7ADC3DCEA08F20F12AD8DDA4FB8C824631408DE3C180"
     }
   ]
 }

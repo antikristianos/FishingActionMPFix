@@ -11,7 +11,7 @@ import zombie.core.FishingAction;
 import zombie.core.NetTimedAction;
 import zombie.core.raknet.UdpConnection;
 import zombie.network.GameServer;
-import zombie.network.fields.character.PlayerID;
+import zombie.network.fields.character.ConnectionPlayer;
 import zombie.network.server.AnimEventEmulator;
 
 public final class VanillaActionAccess {
@@ -134,7 +134,7 @@ public final class VanillaActionAccess {
         }
     }
 
-    public static boolean stopForTimedAction(PlayerID playerId, NetTimedAction packet) {
+    public static boolean stopForTimedAction(IsoPlayer playerId, NetTimedAction packet) {
         if (playerId == null || packet == null || packet.action == null
                 || packet.type == null || packet.type.isEmpty()) {
             return false;
@@ -150,15 +150,15 @@ public final class VanillaActionAccess {
         Collection<Object> actions;
         boolean fishingRetained = false;
         try {
-            PlayerID requestPlayer = current.playerId(packet);
-            if (requestPlayer == null || requestPlayer.getID() != playerId.getID()) {
+            ConnectionPlayer requestPlayer = current.playerId(packet);
+            if (requestPlayer == null || requestPlayer.getPlayer() != playerId) {
                 return false;
             }
             boolean keepFishing = !"ISPickupFishAction".equals(packet.type);
             actions = current.actions();
             for (Object action : current.snapshot()) {
-                PlayerID owner = current.playerId(action);
-                if (owner != null && owner.getID() == playerId.getID()) {
+                ConnectionPlayer owner = current.playerId(action);
+                if (owner != null && owner.getPlayer() == playerId) {
                     if (keepFishing && action instanceof FishingAction) {
                         fishingRetained = true;
                     } else {
@@ -214,14 +214,14 @@ public final class VanillaActionAccess {
                 return;
             }
 
-            PlayerID packetPlayerId = current.playerId(packet);
-            PlayerID localPlayerId = current.playerId(matches.get(0));
+            ConnectionPlayer packetPlayerId = current.playerId(packet);
+            ConnectionPlayer localPlayerId = current.playerId(matches.get(0));
             if (packetPlayerId == null || localPlayerId == null) {
                 return;
             }
 
-            short receivedId = packetPlayerId.getID();
-            short correctedId = localPlayerId.getID();
+            short receivedId = packetPlayerId.getId();
+            short correctedId = localPlayerId.getId();
             packetPlayerId.copy(localPlayerId);
             if (receivedId != correctedId) {
                 FixLog.clientStateRepair(actionId, receivedId, correctedId);
@@ -272,7 +272,7 @@ public final class VanillaActionAccess {
 
             Field actionsField = managerClass.getDeclaredField("actions");
             Field actionIdField = actionClass.getDeclaredField("id");
-            Field playerIdField = actionClass.getDeclaredField("playerId");
+            Field playerIdField = actionClass.getDeclaredField("player");
             Field lastIdField = actionClass.getDeclaredField("lastId");
             Method stopMethod = actionClass.getDeclaredMethod("stop");
 
@@ -303,16 +303,16 @@ public final class VanillaActionAccess {
         }
 
         IsoPlayer player(Object action) throws IllegalAccessException {
-            PlayerID playerId = playerId(action);
+            ConnectionPlayer playerId = playerId(action);
             if (playerId == null) {
                 return null;
             }
             return playerId.getPlayer();
         }
 
-        PlayerID playerId(Object action) throws IllegalAccessException {
+        ConnectionPlayer playerId(Object action) throws IllegalAccessException {
             Object value = playerIdField.get(action);
-            return value instanceof PlayerID playerId ? playerId : null;
+            return value instanceof ConnectionPlayer playerId ? playerId : null;
         }
 
         void stop(Object action) {

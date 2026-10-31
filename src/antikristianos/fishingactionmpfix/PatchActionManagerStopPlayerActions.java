@@ -2,7 +2,7 @@ package antikristianos.fishingactionmpfix;
 
 import me.zed_0xff.zombie_buddy.Patch;
 import zombie.network.GameServer;
-import zombie.network.fields.character.PlayerID;
+import zombie.characters.IsoPlayer;
 
 @Patch(
         className = "zombie.core.ActionManager",
@@ -14,7 +14,7 @@ public final class PatchActionManagerStopPlayerActions {
     }
 
     @Patch.OnEnter(skipOn = true)
-    public static boolean enter(@Patch.Argument(0) PlayerID playerId) {
+    public static boolean enter(@Patch.Argument(0) IsoPlayer playerId) {
         return GameServer.server && VanillaActionAccess.stopForTimedAction(
                 playerId, TimedActionFishingContext.current());
     }
