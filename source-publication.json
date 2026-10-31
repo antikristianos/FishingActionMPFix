@@ -3,16 +3,16 @@
   "Project": "FishingActionMPFix",
   "Repository": "antikristianos/FishingActionMPFix",
   "Branch": "wip",
-  "Tag": "wip-1.73",
-  "ModVersion": "1.2.1",
-  "CollectionVersion": "1.73",
+  "Tag": "wip-1.74",
+  "ModVersion": "1.3",
+  "CollectionVersion": "1.74",
   "WorkshopId": 3802764936,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802764936",
-  "UploadManifestSha256": "2ABF9D7AF3EF37A06138798DA34248FB098D85FDFBDB9DAA6B4D0E1EDC4D139D",
+  "UploadManifestSha256": "6635C9922F3B93194AD831FAE10CB92BFD22908005B4DCD304C78185535870CF",
   "Artifact": {
     "Path": "mods/FishingActionMPFix_WIP/42.22/media/java/FishingActionMPFix.jar",
-    "Size": 50785,
-    "Sha256": "90A3A1A8410153268E0B812FF28FFBCAC6CDDD6F5E8B5C7CAFF8F374803450AE"
+    "Size": 50783,
+    "Sha256": "EEEC16455EC3DC73594118F9B1342322FC084C6CDDA3D9BDE9570CF3EA4E4F67"
   },
   "Sources": [
     {
@@ -22,13 +22,13 @@
     },
     {
       "Path": "MANIFEST.MF",
-      "Size": 158,
-      "Sha256": "803EFADDCCD4789AAF83CA5FC6ABCDB0BD99CB0DC1957DC0678ADF413357F26A"
+      "Size": 156,
+      "Sha256": "C86383719D5F2E86AE7133A6B07C72F3CC00F3B5D6A7A5295754EA3165E97CAD"
     },
     {
       "Path": "README.md",
-      "Size": 1457,
-      "Sha256": "6A9317CADD5CA0CA53ECC116507F2D29DACEEA6580AF139A0DD5A4BC629E710E"
+      "Size": 1455,
+      "Sha256": "0571353953B1757DC8FB446B8041B7278F1D42811D398FED7040ACBF2BF72DAD"
     },
     {
       "Path": "build.json",
@@ -87,8 +87,8 @@
     },
     {
       "Path": "runtime/42.22/mod.info",
-      "Size": 721,
-      "Sha256": "286341A2860B514D278270A717A84AB7D6034ACFD0A5F86560608830027161E3"
+      "Size": 719,
+      "Sha256": "16890EBE9599B37B288D8C1227DD0A89C35EB7D43222FE113F4631D39D432DD6"
     },
     {
       "Path": "src/antikristianos/fishingactionmpfix/ConnectionScopedActionSelector.java",
