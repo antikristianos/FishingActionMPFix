@@ -3,12 +3,12 @@
   "Project": "FishingActionMPFix",
   "Repository": "antikristianos/FishingActionMPFix",
   "Branch": "wip",
-  "Tag": "wip-1.80",
+  "Tag": "wip-1.81",
   "ModVersion": "1.3",
-  "CollectionVersion": "1.80",
+  "CollectionVersion": "1.81",
   "WorkshopId": 3802764936,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802764936",
-  "UploadManifestSha256": "C40AF9B59B6D599DBF4132FD357BA4C7187FF9922DADECF261FA4A433C859349",
+  "UploadManifestSha256": "7737F5DA54B12FFEB0391A45B0792D1920123C2905FBB6D421BE5D88F9E7CCA3",
   "Artifact": {
     "Path": "mods/FishingActionMPFix_WIP/42.22/media/java/FishingActionMPFix.jar",
     "Size": 50783,
@@ -33,7 +33,7 @@
     {
       "Path": "build.json",
       "Size": 8026,
-      "Sha256": "B5BEDAEF69B7A3ABBEEBFCD8D75E5FA4D64A41C5A14F3FCF79CD67B91D5DD438"
+      "Sha256": "69BF678AC36D8F99F460C077EFFA58505517587AA019F9699FF2E34D410BB6EC"
     },
     {
       "Path": "build.ps1",
